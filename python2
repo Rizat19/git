@@ -1,0 +1,66 @@
+#''' '''
+7)Docstring
+
+def say_hello(name):
+    """
+    this function print out Hello, AzatAI
+    :param name : string, the name of the user to greet.
+    :return : string,  The greetings from AzatAI
+    """
+    return "Hello, {}, Salem from AzatAI".format(name)
+print(say_hello('Darganius'))
+
+8)Module
+.py дегендердин бари  
+Питонда осындай внутренний модульдер бар
+import os
+import subprocess
+import sys
+import math 
+
+#1-zholy
+import math
+print(math.pi)
+
+#2-zholy
+from math import pi
+print(pi)
+
+
+import sys
+print(sys.path)# питондағы орнатылған библиотекалар бар екенин корсетеді
+path - библиотекалар орны
+
+# time
+import time
+print(time.time()/3600/24/365)
+##import time
+##print(time.time())
+import time
+start_time=time.time()
+for i in range(10000):
+    i+=1
+end_time=time.time()
+delta=end_time-start_time
+print(delta)
+
+3)#thrip
+a=1
+b=2
+c=3
+d=a if a>b else c
+print(d)
+
+4)loop 
+print('first')
+count=0
+while True:
+    print('count:',count)
+    count+=1
+    if(count==10):
+        break
+
+print('second:')
+count=0
+for count in range(0,10,2):
+    print(count)
