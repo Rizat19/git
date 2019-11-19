@@ -1,12 +1,3 @@
-##f=input()
-##print(f)
-##f1=f.split(',')
-##print(f1)
-##sum=0
-##for i in f1:
-##    sum+=int(i)+
-##print(sum)
-##jhi4
 class A:
     def __init__(self):
         self.f=input('напишите цифры через пробел:')
